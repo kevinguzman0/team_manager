@@ -37,7 +37,7 @@ const Jugadores = ({ jugadores, agregarTitular, agregarSuplente }) => {
 
     return (
         <section>
-            <h2>Jugadores</h2>
+            <h2>Players</h2>
             <div className="contenedor-jugadores">
                 <div ref={gridJugadores} onClick={() => setScrollContainer.bind(this)}>
                     {

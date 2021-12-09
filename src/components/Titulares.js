@@ -4,7 +4,7 @@ const Titulares = ({ titulares, quitarTitular }) => {
 
     return (
         <section>
-            <h2>Titulares</h2>
+            <h2>Headlines</h2>
             <div className="cancha">
                 {
                     titulares.map(j => (

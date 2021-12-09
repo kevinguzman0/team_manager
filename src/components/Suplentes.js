@@ -3,7 +3,7 @@ import { connect } from "react-redux"
 const Suplentes = ({ suplentes, quitarSuplente }) => {
     return (
         <section>
-            <h2>Suplentes</h2>
+            <h2>Alternates</h2>
             <div className="cancha">
                 {
                     suplentes.map(j => (
