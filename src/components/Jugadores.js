@@ -46,8 +46,8 @@ const Jugadores = ({ jugadores, agregarTitular, agregarSuplente }) => {
                                 <img src={j.foto} alt={j.nombre} />
                                 <h3>{j.nombre}</h3>
                                 <div>
-                                    <button onClick={() => agregarTitular(j)}>Titular</button>
-                                    <button onClick={() => agregarSuplente(j)}>Suplente</button>
+                                    <button onClick={() => agregarTitular(j)}>Headline</button>
+                                    <button onClick={() => agregarSuplente(j)}>Alternate</button>
                                 </div>
                             </article>
                         ))
