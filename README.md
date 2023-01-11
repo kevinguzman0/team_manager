@@ -1,1 +1,1 @@
-Admin your Team
+Manage your Team
